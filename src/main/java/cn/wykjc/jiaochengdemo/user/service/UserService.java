@@ -12,6 +12,6 @@ import java.util.Map;
 public interface UserService {
     List<UserEntity> getAll(Map map);
 
-    void delById(Integer id);
+    void delById(Integer id) ;
     public void save(UserEntity userEntity);
 }
